@@ -1,0 +1,13 @@
+<?php
+/**
+* Implement hook_install().
+*
+* Perform actions to set up the site for this profile.
+*/
+function refstats_profile_install() {
+  // Do all the install tasks from the standard install profile
+  // It's easier just to include this and then override the few things that we want to.
+  include_once(DRUPAL_ROOT . '/profiles/standard/standard.install');
+  standard_install();
+}
+  
