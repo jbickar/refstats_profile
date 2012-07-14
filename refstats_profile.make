@@ -79,3 +79,9 @@ projects[ref][download][type] = "git"
 projects[ref][download][url] = "git@github.com:jbickar/ref.git"
 projects[ref][type] = "theme"
 
+; Profile
+
+projects[refstats_profile][type] = "profile"
+projects[refstats_profile][download][type] = "git"
+projects[refstats_profile][download][url] = "git@github.com:jbickar/refstats_profile.git"
+projects[refstats_profile][download][branch] = 7.x-1.x
