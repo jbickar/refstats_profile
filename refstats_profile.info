@@ -32,7 +32,6 @@ dependencies[] = shortcut
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
-dependencies[] = toolbar
 dependencies[] = trigger
 dependencies[] = update
 dependencies[] = user
