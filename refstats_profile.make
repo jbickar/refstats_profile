@@ -23,12 +23,6 @@ projects[ctools][version] = "1.0"
 projects[date][subdir] = "sites/all/modules/contrib/date"
 projects[date][version] = "2.5"
 
-projects[db_maintenance][subdir] = "sites/all/modules/contrib/db_maintenance"
-projects[db_maintenance][version] = "1.1"
-
-projects[diff][subdir] = "sites/all/modules/contrib/diff"
-projects[diff][version] = "2.0"
-
 projects[disable_messages][subdir] = "sites/all/modules/contrib/disable_messages"
 projects[disable_messages][version] = "1.0"
 
@@ -47,13 +41,12 @@ projects[fieldset_helper][version] = "2.1"
 projects[pathauto][subdir] = "sites/all/modules/contrib/pathauto"
 projects[pathauto][version] = "1.1"
 
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[ref_txn][download][type] = ""
-projects[ref_txn][download][url] = ""
-projects[ref_txn][type] = "module"
-projects[ref_txn][subdir] = "sites/all/modules/custom/ref_txn"
-projects[ref_txn][version] = "1.0-alpha1"
+; Disabled until ref_txn module is posted on github
+; projects[ref_txn][download][type] = "git"
+; projects[ref_txn][download][url] = "git@github.com:jbickar/ref_txn.git"
+; projects[ref_txn][type] = "module"
+; projects[ref_txn][subdir] = "sites/all/modules/custom/ref_txn"
+; projects[ref_txn][version] = "1.0-alpha1"
 
 projects[taxonomy_manager][subdir] = "sites/all/modules/contrib/taxonomy_manager"
 projects[taxonomy_manager][version] = "1.0-beta3"
@@ -69,38 +62,8 @@ projects[views_data_export][version] = "3.0-beta6"
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
-projects[webauth][download][type] = ""
-projects[webauth][download][url] = ""
-projects[webauth][type] = "module"
-projects[webauth][version] = "3.0"
-
-; Themes
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[acquia_marina][download][type] = ""
-projects[acquia_marina][download][url] = ""
-projects[acquia_marina][type] = "theme"
-projects[acquia_marina][version] = "0.1-alpha1"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[fusion][download][type] = ""
-projects[fusion][download][url] = ""
-projects[fusion][type] = "theme"
-projects[fusion][subdir] = "sites/all/themes"
-projects[fusion][version] = "1.0-alpha1"
-
-; Modules
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[datetweaks][download][type] = ""
-projects[datetweaks][download][url] = ""
-projects[datetweaks][type] = "module"
-
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
-projects[refstats][download][type] = ""
-projects[refstats][download][url] = ""
+projects[refstats][download][type] = "git"
+projects[refstats][download][url] = "git@github.com:jbickar/refstats.git"
 projects[refstats][type] = "module"
 
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
@@ -112,7 +75,7 @@ projects[reverse_proxy][type] = "module"
 ; Themes
 ; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
 ; and url is the url of the download.
-projects[ref][download][type] = ""
-projects[ref][download][url] = ""
+projects[ref][download][type] = "git"
+projects[ref][download][url] = "git@github.com:jbickar/ref.git"
 projects[ref][type] = "theme"
 
