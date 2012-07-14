@@ -35,8 +35,9 @@ dependencies[] = toolbar
 dependencies[] = trigger
 dependencies[] = update
 dependencies[] = user
-dependencies[] = bartik
-dependencies[] = seven
+; install profile pukes on themes?
+; dependencies[] = bartik
+; dependencies[] = seven
 
 ; Contrib modules
 
@@ -72,6 +73,7 @@ dependencies[] = fieldset_helper
 dependencies[] = views
 dependencies[] = views_data_export
 dependencies[] = views_ui
-dependencies[] = ref
+; install profile pukes on themes?
+; dependencies[] = ref
 
 files[] = refstats_profile.profile
