@@ -61,7 +61,7 @@ projects[ref_txn][type] = "module"
 projects[ref_txn][subdir] = "custom"
 projects[ref_txn][download][type] = "git"
 projects[ref_txn][download][url] = "git@github.com:jbickar/ref_txn.git"
-projects[ref_txn][download][tag] = "7.x-1.0-alpha4"
+projects[ref_txn][download][tag] = "7.x-1.0-alpha5"
 
 projects[refstats][download][type] = "git"
 projects[refstats][download][url] = "git@github.com:jbickar/refstats.git"
