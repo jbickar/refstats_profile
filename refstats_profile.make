@@ -63,6 +63,7 @@ projects[views_data_export][version] = "3.0-beta6"
 projects[refstats][download][type] = "git"
 projects[refstats][download][url] = "git@github.com:jbickar/refstats.git"
 projects[refstats][type] = "module"
+projects[refstats][subdir] = "contrib"
 
 ; Themes
 projects[ref][download][type] = "git"
