@@ -24,4 +24,9 @@ function refstats_profile_tasks() {
     'bartik'
   );
   theme_enable($preferred_themes);
+  foreach ($preferred_themes as $var => $theme) {
+    if (!is_numeric($var)) {
+      variable_set($var, $theme);
+    }
+  }
 }
