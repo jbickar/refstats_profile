@@ -41,6 +41,9 @@ projects[fieldset_helper][version] = "2.1"
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.1"
 
+projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = "2.0"
+
 ; Reference transaction Feature
 projects[ref_txn][type] = "module"
 projects[ref_txn][subdir] = "custom"
