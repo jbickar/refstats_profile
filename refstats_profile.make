@@ -41,12 +41,12 @@ projects[fieldset_helper][version] = "2.1"
 projects[pathauto][subdir] = "sites/all/modules/contrib/pathauto"
 projects[pathauto][version] = "1.1"
 
-; Disabled until ref_txn module is posted on github
-; projects[ref_txn][download][type] = "git"
-; projects[ref_txn][download][url] = "git@github.com:jbickar/ref_txn.git"
-; projects[ref_txn][type] = "module"
-; projects[ref_txn][subdir] = "sites/all/modules/custom/ref_txn"
-; projects[ref_txn][version] = "1.0-alpha1"
+; Reference transaction Feature
+projects[ref_txn][download][type] = "git"
+projects[ref_txn][download][url] = "git@github.com:jbickar/ref_txn.git"
+projects[ref_txn][type] = "module"
+projects[ref_txn][subdir] = "sites/all/modules/custom/ref_txn"
+projects[ref_txn][tag] = "7.x-1.0-alpha2"
 
 projects[taxonomy_manager][subdir] = "sites/all/modules/contrib/taxonomy_manager"
 projects[taxonomy_manager][version] = "1.0-beta3"
@@ -73,14 +73,11 @@ projects[reverse_proxy][download][url] = ""
 projects[reverse_proxy][type] = "module"
 
 ; Themes
-; Please fill the following out. Type may be one of get, cvs, git, bzr or svn,
-; and url is the url of the download.
 projects[ref][download][type] = "git"
 projects[ref][download][url] = "git@github.com:jbickar/ref.git"
 projects[ref][type] = "theme"
 
 ; Profile
-
 projects[refstats_profile][type] = "profile"
 projects[refstats_profile][download][type] = "git"
 projects[refstats_profile][download][url] = "git@github.com:jbickar/refstats_profile.git"
