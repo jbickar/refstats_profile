@@ -55,7 +55,6 @@ dependencies[] = date_repeat_field
 dependencies[] = date_tools
 dependencies[] = date_views
 dependencies[] = features
-; add this back in once it's posted to github
 dependencies[] = ref_txn
 dependencies[] = field_group
 dependencies[] = advanced_help
@@ -67,6 +66,7 @@ dependencies[] = entity_token
 dependencies[] = pathauto
 dependencies[] = token
 dependencies[] = refstats
+dependencies[] = refstats_helper
 dependencies[] = taxonomy_manager
 dependencies[] = fieldset_helper
 dependencies[] = views
