@@ -19,6 +19,8 @@ function refstats_profile_tasks() {
   //set up themes
   $preferred_themes = array(
     'theme_default' => 'ref',
+    'admin_theme' => 'ref',
+    'node_admin_theme' => 'ref',
     'bartik'
   );
   theme_enable($preferred_themes);
