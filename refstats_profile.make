@@ -41,6 +41,9 @@ projects[fieldset_helper][version] = "2.1"
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.1"
 
+projects[remember_me][subdir] = "contrib"
+projects[remember_me][version] = "1.0"
+
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
