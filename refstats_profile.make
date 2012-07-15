@@ -68,7 +68,7 @@ projects[refstats][subdir] = "custom"
 projects[refstats_reports_view][type] = "module"
 projects[refstats_reports_view][subdir] = "custom"
 projects[refstats_reports_view][download][type] = "git"
-projects[refstats_reports_view][download][url] = "git@github.com:jbickar/refstats.git"
+projects[refstats_reports_view][download][url] = "git@github.com:jbickar/refstats_reports_view.git"
 projects[refstats_reports_view][download][tag] = "7.x-1.0-alpha1"
 
 ; Themes
