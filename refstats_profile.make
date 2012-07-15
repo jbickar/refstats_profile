@@ -42,11 +42,11 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.1"
 
 ; Reference transaction Feature
-; projects[ref_txn][type] = "module"
-; projects[ref_txn][subdir] = "custom"
-; projects[ref_txn][download][type] = "git"
-; projects[ref_txn][download][url] = "git@github.com:jbickar/ref_txn.git"
-; projects[ref_txn][download][tag] = "7.x-1.0-alpha2"
+projects[ref_txn][type] = "module"
+projects[ref_txn][subdir] = "custom"
+projects[ref_txn][download][type] = "git"
+projects[ref_txn][download][url] = "git@github.com:jbickar/ref_txn.git"
+projects[ref_txn][download][tag] = "7.x-1.0-alpha4"
 
 projects[taxonomy_manager][subdir] = "contrib"
 projects[taxonomy_manager][version] = "1.0-beta3"

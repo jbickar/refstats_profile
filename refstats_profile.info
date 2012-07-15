@@ -56,7 +56,7 @@ dependencies[] = date_tools
 dependencies[] = date_views
 dependencies[] = features
 ; add this back in once it's posted to github
-; dependencies[] = ref_txn
+dependencies[] = ref_txn
 dependencies[] = field_group
 dependencies[] = advanced_help
 dependencies[] = auto_nodetitle
