@@ -44,13 +44,6 @@ projects[pathauto][version] = "1.1"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
-; Reference transaction Feature
-projects[ref_txn][type] = "module"
-projects[ref_txn][subdir] = "custom"
-projects[ref_txn][download][type] = "git"
-projects[ref_txn][download][url] = "git@github.com:jbickar/ref_txn.git"
-projects[ref_txn][download][tag] = "7.x-1.0-alpha4"
-
 projects[taxonomy_manager][subdir] = "contrib"
 projects[taxonomy_manager][version] = "1.0-beta3"
 
@@ -62,6 +55,13 @@ projects[views][version] = "3.3"
 
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"
+
+; Reference transaction Feature
+projects[ref_txn][type] = "module"
+projects[ref_txn][subdir] = "custom"
+projects[ref_txn][download][type] = "git"
+projects[ref_txn][download][url] = "git@github.com:jbickar/ref_txn.git"
+projects[ref_txn][download][tag] = "7.x-1.0-alpha4"
 
 projects[refstats][download][type] = "git"
 projects[refstats][download][url] = "git@github.com:jbickar/refstats.git"
