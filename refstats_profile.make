@@ -63,7 +63,13 @@ projects[views_data_export][version] = "3.0-beta6"
 projects[refstats][download][type] = "git"
 projects[refstats][download][url] = "git@github.com:jbickar/refstats.git"
 projects[refstats][type] = "module"
-projects[refstats][subdir] = "contrib"
+projects[refstats][subdir] = "custom"
+
+projects[refstats_reports_view][type] = "module"
+projects[refstats_reports_view][subdir] = "custom"
+projects[refstats_reports_view][download][type] = "git"
+projects[refstats_reports_view][download][url] = "git@github.com:jbickar/refstats.git"
+projects[refstats_reports_view][download][tag] = "7.x-1.0-alpha1"
 
 ; Themes
 projects[ref][download][type] = "git"
