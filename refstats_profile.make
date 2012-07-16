@@ -71,7 +71,7 @@ projects[refstats_helper][type] = "module"
 projects[refstats_helper][subdir] = "custom"
 projects[refstats_helper][download][type] = "git"
 projects[refstats_helper][download][url] = "git@github.com:jbickar/refstats_helper.git"
-projects[refstats_helper][download][tag] = "7.x-1.0-alpha1"
+projects[refstats_helper][download][tag] = "7.x-1.0-alpha2"
 
 projects[refstats][download][type] = "git"
 projects[refstats][download][url] = "git@github.com:jbickar/refstats.git"
